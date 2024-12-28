@@ -1,1 +1,16 @@
-こんにちは、世界！
+PS C:\git_tutorial> cd git_challenge
+PS C:\git_tutorial\git_challenge> git init
+Initialized empty Git repository in C:/git_tutorial/git_challenge/.git/
+PS C:\git_tutorial\git_challenge> git add hello_world.txt
+PS C:\git_tutorial\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 98bcb33] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\git_tutorial\git_challenge> git add hello_world.txt
+PS C:\git_tutorial\git_challenge> git commit -m "日本語訳を追記"
+[main 0fe8b0c] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\git_tutorial\git_challenge> git log --oneline
+0fe8b0c (HEAD -> main) 日本語訳を追記
+98bcb33 hello_world.txtを追加
+PS C:\git_tutorial\git_challenge> 
